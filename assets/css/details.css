@@ -1,0 +1,295 @@
+.iconbox {
+  background: #e5f4fb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  width: 100%;
+  border-radius: 3px;
+  transition: transform 1s;
+  
+}
+.iconbox:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  
+}
+
+.img-responsive {
+  position: relative;
+  margin: 0 auto;
+
+}
+
+.icontext {
+  text-align: center;
+  color: #0197d4;
+}
+
+.icon-header {
+  color: #0197d4;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+
+
+.filtremn .hmcon {
+  border-top: inherit;
+}
+
+.filtreasama.timelines {
+  margin-top: 25px;
+  float: left;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.timelines .layout-right {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.navigation {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 1;
+}
+.timelines .layout-right:before {
+  content: '';
+  position: absolute;
+  top: 34.5px;
+  height: 7px;
+  background: #8fd1ec;
+  left: 40px;
+  right: 40px;
+  z-index: 0;
+}
+
+.navigation:before {
+  content: '';
+  display: block;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.owl-controls {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.timelines .navigation .owl-nav .left {
+  left: 12px;
+}
+.timelines .navigation .owl-nav span {
+  position: absolute;
+  font-size: 0;
+  width: 32px;
+  text-align: center;
+  border-width: 1px;
+  height: 32px;
+  border-radius: 100%;
+  line-height: 30px;
+  color: #fff;
+  background: #2da9db !important;
+  border-radius: 100%;
+  right: 12px;
+  border: 1px solid #2da9db;
+  top: 21px;
+}
+.navigation .owl-nav .left:before {
+  transform: rotate(315deg);
+}
+.navigation .owl-nav .right:before {
+  transform: rotate(135deg);
+}
+.navigation .owl-nav span:before {
+  content: '';
+  display: block;
+  height: 6px;
+  width: 6px;
+  float: left;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  border-width: 1px 0 0 1px;
+  top: 40%;
+  position: absolute;
+  left: 38%;
+}
+
+p, span, a, img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timelines .layout-right .history-chart-content {
+  padding-top: 1px;
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+.timelines .layout-right .history-chart-content .chart-dots {
+  display: inline-block;
+  zoom: 1;
+  position: relative;
+}
+.homeabsolute {
+  position: absolute;
+  top: 93%;
+  left: 21%;
+  color: #19a1d8;
+}
+
+.timelines .layout-right .history-chart-content .chart-dots .chart-year {
+  position: absolute;
+  display: inline-block;
+  zoom: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(1,151,212,0.44);
+  -ms-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-weight: 900;
+}
+
+.timelines .layout-right .history-chart-content .chart-dots .chart-circle {
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  top: -5px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.timelines .layout-right .history-chart-content .chart-dots .chart-circle:before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  background-color: rgba(1,151,212,0.44);
+  -ms-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.timelines .layout-right .history-chart-content .chart-dots .chart-circle:after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  background-color: rgba(1,151,212,0.44);
+  -ms-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+
+.timelines .layout-right .history-chart-content .chart-caption {
+  -ms-transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  position: relative;
+  padding: 20px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 1.7em;
+  border: 1px solid #c8c8d4;
+  background-color: #f5f6fb;
+  border-radius: 5px;
+  top: 10px;
+  opacity: 1;
+  height: 180px;
+}
+.timelines .layout-right .history-chart-content .chart-caption:before, .timelines .layout-right .history-chart-content .chart-caption:after {
+  z-index: 1;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.timelines .layout-right .history-chart-content .chart-caption:before {
+  border-style: solid;
+  border-width: 10px;
+  border-color: transparent;
+  border-bottom-color: #c8c8d4;
+}
+.timelines .layout-right .history-chart-content .chart-caption:after {
+  border-style: solid;
+  border-width: 11px;
+  border-color: transparent;
+  border-bottom-color: #f5f6fb;
+}
+.timelines .layout-right .history-chart-content:hover .chart-circle:before, .timelines .layout-right .history-chart-content:hover .chart-circle:after {
+  background-color: rgba(235,169,21,0.68);
+}
+.timelines .layout-right .history-chart-content:hover .chart-year {
+  background-color: rgba(254,169,1,0.91);
+}
+.timelines .layout-right .history-chart-content:hover .homeabsolute{
+  color: rgba(254,169,1,0.91);
+}
+
+@media (max-width: 767px) {
+  .timelines .owl-controls {
+    display: none;
+  }
+
+  .timelines .layout-right .history-chart-content {
+    width: 50%;
+  }
+
+  .timelines .layout-right .history-chart-content .chart-caption {
+    height: 224px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  .timelines .layout-right:before {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px){
+  .timelines .layout-right .history-chart-content .chart-caption {
+      height: 300px!important;
+      font-size: 13px;
+  }
+}
